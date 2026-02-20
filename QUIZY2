@@ -1,0 +1,23 @@
+10 CLS
+20 INPUT "Qual a capital do Brasil"; R$
+30 IF R$="Brasilia" THEN PRINT "Correto!" ELSE PRINT "Errou!"
+
+40 INPUT "Qual e a capital do Reino Unido"; R$
+50 IF R$="London" OR R$="Londres" THEN PRINT "Acertou em cheio!" ELSE PRINT "Errou :("
+
+60 INPUT "Qual e a capital da Franca"; R$
+70 IF R$="Paris" THEN PRINT "Acertou, mais uma vez!" ELSE PRINT "Qual e cara, tenta novamente!"
+
+80 INPUT "Qual e a capital da Ucrania"; R$
+90 IF R$="Kiev" THEN PRINT "Otimo!!!" ELSE PRINT "Eh... chega de errar :|"
+
+100 INPUT "Qual e a capital da Alemanha"; R$
+110 IF R$="Berlim" OR R$="Berlin" THEN PRINT "Parabens, voce ta otimo!" ELSE PRINT "Hehe........"
+
+120 INPUT "Qual e a capital da China"; R$
+130 IF R$="Pequim" THEN PRINT "Uau!!" ELSE PRINT "He, he, he > :)"
+
+140 INPUT "Qual e a capital do Japao"; R$
+150 IF R$="Toquio" OR R$="Tokio" THEN PRINT "Legal!" ELSE PRINT "Eh... eh... nada!"
+
+160 END
